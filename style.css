@@ -63,3 +63,60 @@ nav .container{
 
 
 
+.hero_title{
+    margin-top: 100px;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+line-height: 140%;
+color: white;
+}
+
+.hero_box{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero_box_text{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.hero_list{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_item{
+    width: 24%;
+    background-color: #8D86C9;
+  
+    padding: 20px;
+}
+
+.hero_item_title{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero_item_box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_item_text{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+
