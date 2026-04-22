@@ -118,8 +118,13 @@ nav .container {
 .hero_item {
   width: 24%;
   background-color: var(--main-color);
-
   padding: 20px;
+  transition: all 0.3s;
+}
+
+.hero_item:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
 }
 
 .hero_item_title {
@@ -252,4 +257,43 @@ main {
 .sport_item::marker {
   color: var(--main-color);
   font-size: 25px;
+}
+
+
+.tren .container{
+  padding: 100px 0;
+}
+
+.tren_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.tren_title{
+  font-size: 38px;
+  font-weight: 700;
+  color: #333333;
+}
+
+
+.tren_list{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tren_item{
+  width: 14%;
+  text-align: center;
+}
+
+.tren_item img{
+  width: 100%;
+  height: 240px;
+}
+
+.tren_item h2{
+  margin: 30px 0;
 }
