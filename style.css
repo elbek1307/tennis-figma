@@ -297,3 +297,80 @@ main {
 .tren_item h2{
   margin: 30px 0;
 }
+
+.seni .container{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seni_abon{
+  width: 45%;
+}
+
+.seni_abon_title{
+  font-size: 38px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.seni_list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.seni_item{
+  padding: 20px 30px;
+  width: 100%;
+  background-color: #8D86C9;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.seni_item_text{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+
+.seni_uslug{
+  width: 45%;
+
+
+}
+
+.seni_uslug_top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.seni_uslug_title{
+    font-size: 38px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.seni_uslug_box{
+  width: 580px;
+  height: 270px;
+   background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./img/seni_uslug.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  padding: 30px;
+}
+
+.seni_uslug_box_title{
+  font-size: 28px;
+  color: white;
+}
