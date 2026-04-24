@@ -374,3 +374,61 @@ main {
   font-size: 28px;
   color: white;
 }
+
+
+footer{
+  background-color: #F7ECE1;
+}
+
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.foot_logo{
+  text-decoration: none;
+  color: #333333;
+}
+
+
+
+.foot_list {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.foot_item {
+  padding: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+
+.foot_item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color);
+  bottom: 0;
+  right: 0;
+  transition: all 0.3s;
+}
+
+.foot_item:hover::after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.foot_box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
